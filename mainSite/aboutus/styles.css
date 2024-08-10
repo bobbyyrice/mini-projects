@@ -57,6 +57,19 @@ ul {
     transform: translateY(0);
 }
 
+.hidden3 {
+    opacity: 0;
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateY(100%);
+}
+
+.show3 {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
 .header-list:nth-child(1) {
     transition-delay: 100ms;
 }
@@ -83,9 +96,80 @@ ul {
 
 .thetoppart {
     min-height: auto;
+    max-height: 70px;
 }
 
 .everythingelse {
     display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.theaboutpart {
+    display: block;
+}
+
+.header2 {
+    text-align: center;
+    margin: 50px;
+}
+
+.text {
+    transition-delay: 100ms;
+    width: 600px;
+    height: auto;
+}
+
+.goatarsenal {
+    transition-delay: 200ms;
+    text-align: center;
+}
+
+.theboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.topbox {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.topbox:nth-child(2) {
+    transition-delay: 300ms;
+}
+
+.topbox:nth-child(3) {
+    transition-delay: 400ms;
+}
+
+.topbox:nth-child(4) {
+    transition-delay: 500ms;
+}
+
+.topbox:nth-child(5) {
+    transition-delay: 600ms;
+}
+
+.text2 {
+    color: #ffffffaf;
+    width: 600px;
+    height: auto;
+}
+
+.image {
+    border-radius: 16px;
+}
+
+.footer {
+    margin-top: 25px;
+    background-color: #292929;
+    min-height: 50px;
+    color: #ffffffaf;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
