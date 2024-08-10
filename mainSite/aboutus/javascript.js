@@ -3,8 +3,6 @@ const observer = new IntersectionObserver((entries) => {
         console.log(entry)
         if (entry.isIntersecting) {
             entry.target.classList.add('show');
-        } else {
-            entry.target.classList.remove('show');
         }
     });
 });
@@ -17,8 +15,6 @@ const observer2 = new IntersectionObserver((entries) => {
         console.log(entry)
         if (entry.isIntersecting) {
             entry.target.classList.add('show2');
-        } else {
-            entry.target.classList.remove('show2');
         }
     });
 });
@@ -31,8 +27,6 @@ const observer3 = new IntersectionObserver((entries) => {
         console.log(entry)
         if (entry.isIntersecting) {
             entry.target.classList.add('show3');
-        } else {
-            entry.target.classList.remove('show3');
         }
     });
 });
