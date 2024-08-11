@@ -138,6 +138,13 @@ ul {
     gap: 32px;
 }
 
+.topbox {
+    box-sizing: border-box;
+    padding: 12px;
+    border: 2px solid #fff;
+    border-radius: 16px;
+}
+
 .topbox:nth-child(2) {
     transition-delay: 300ms;
 }
